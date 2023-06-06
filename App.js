@@ -1,20 +1,22 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import Front from './src/screens/Front';
+import SearchPlaces from './src/screens/SearchPlaces';
+import SignIn from './src/screens/SignIn';
+import SignIn2nd from './src/screens/SignIn2nd';
+import SignUp from './src/screens/SignUp';
+
+
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+  //  <FrontScreen/>
+       <Front/>
+      // <SearchPlaces/>
+      
+    // <SignIn/>
+    // <SignIn2nd/>
+    // <SignUp/>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+//import "expo-router/entry";
