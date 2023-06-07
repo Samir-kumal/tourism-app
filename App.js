@@ -10,10 +10,10 @@ import SignUp from './src/screens/SignUp';
 export default function App() {
   return (
   //  <FrontScreen/>
-       <Front/>
+      //  <Front/>
       // <SearchPlaces/>
       
-    // <SignIn/>
+    <SignIn/>
     // <SignIn2nd/>
     // <SignUp/>
   );

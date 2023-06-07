@@ -29,7 +29,7 @@ const SignIn = () => {
           <Text className={Style.textSize}>Google</Text>
         </SignUpTemplate>
         <SignUpTemplate>
-          <Image source={require("../../assets/Facebook.png")} />
+          <Image  className="h-6 w-6" source={require("../../assets/Facebook.png")} />
           
            
           <Text className={Style.textSize}>Facebook</Text>
